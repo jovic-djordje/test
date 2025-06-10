@@ -22,9 +22,7 @@ const About = () => {
     <div className="about-page">
       <div className="main-text-holder">
         <h1 className="about-heading">About</h1>
-        <p className="about-text">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        </p>
+        <p className="about-text">Welcome on about page</p>
       </div>
       <div className="about-cart-holder">
         {items.map((item) => (
