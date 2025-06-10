@@ -1,0 +1,99 @@
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("https://wallpaperbat.com/img/860804-top-blogs-for-react-js.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  isolation: isolate;
+  position: relative;
+  font-family: "Pacifico";
+}
+
+.contact-page::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #292929;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.contact-heading {
+  margin: 0;
+  color: #fff;
+}
+
+.contact-text {
+  margin: 0;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+.input-area {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin: 0px auto;
+  gap: 25px;
+}
+
+.input-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+
+input {
+  padding: 20px 0px;
+  width: 100%;
+  text-indent: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #292929;
+  font-family: "Pacifico";
+}
+
+input::placeholder {
+  color: #292929;
+  font-family: "Pacifico";
+}
+
+#text-area {
+  width: 100%;
+  text-indent: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #292929;
+  font-family: "Pacifico";
+}
+
+#text-area::placeholder {
+  color: #292929;
+  font-family: "Pacifico";
+}
+
+.contact-page-btn {
+  text-transform: uppercase;
+  margin-top: 20px;
+  background-color: transparent;
+  border: 1px solid lightseagreen;
+  border: none;
+  border-radius: 5px;
+  color: lightseagreen;
+}
+
+.contact-page-btn:hover {
+  color: #fff;
+  background-color: lightseagreen;
+}

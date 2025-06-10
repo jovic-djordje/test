@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.team-page {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Pacifico";
+  gap: 25px;
+  background-image: url("https://th.bing.com/th/id/R.94bf6a9a6592d7c6e630118be3a7922b?rik=ho%2fNjqTBcNPvfA&pid=ImgRaw&r=0");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  isolation: isolate;
+  position: relative;
+}
+
+.team-page::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #292929;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.team-page-heading {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.team-cart-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+  gap: 30px;
+}
+
+.team-cart {
+  max-width: 300px;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px 0px;
+  border-radius: 10px;
+}
+
+.team-cart-width-holder {
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile-pic {
+  max-width: 150px;
+  width: 100%;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border: 2px solid #292929;
+}
+
+.name {
+  color: #121111;
+}
+
+.description {
+  color: #363636;
+  text-transform: lowercase;
+}
+
+.role {
+  color: #1e1d1d;
+  text-transform: uppercase;
+  color: lightseagreen;
+}
+
+.icons-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  border: 3px solid #292929;
+  border-radius: 50%;
+}
